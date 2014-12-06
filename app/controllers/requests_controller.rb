@@ -4,7 +4,8 @@ class RequestsController < ApplicationController
   # GET /requests
   # GET /requests.json
   def index
-    @requests = Request.all
+    @search = RequestSearch.new(params[:search])
+    @requests = @search.scope
   end
 
   # GET /requests/1
