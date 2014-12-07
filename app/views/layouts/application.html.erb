@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="container">
-    <ul class="nav nav-tabs">
+    <ul class="nav nav-tabs" align="right">
       <li><%= link_to "Home", welcome_index_path %></li>
       <li><%= link_to "Updates", welcome_updates_path %></li>
       <li><%= link_to "The Shelf", welcome_shelf_path %></li>
@@ -16,10 +16,11 @@
       <li><%= link_to "Requests", requests_path %></li>
       <li><%= link_to "Login", welcome_index_path %></li>
     </ul>
-
+    <div align="center">
      <%= yield %>
-    
-    <ul class="nav nav-pills">
+    </div>
+    <hr/>
+    <ul class="nav nav-pills pull-right">
       <li><%= link_to "About Us", welcome_about_path %></li>
       <li><%= link_to "Disclaimer", welcome_disclaimer_path %></li>
     </ul>
