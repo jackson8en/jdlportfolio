@@ -3,26 +3,20 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Cheatsheets @ http://cheat.errtheblog.com/s/strftime
 
-* Ruby version
+Things I need to complete or even start:
+
+* Request search to needs to include @date_to
 
 * System dependencies
 
-* Configuration
+* Configuration of login via devise
 
-* Database creation
+* Database table creation
 
-* Database initialization
+* Database initialization on heroku
 
-* How to run the test suite
+* Add chatbox
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Notifications the personalisation
